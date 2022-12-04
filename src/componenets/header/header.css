@@ -1,0 +1,68 @@
+.header{
+    background-color: rgb(60, 26, 100);
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin:2rem 0 5rem 0;
+    margin-bottom: 5rem;
+    position: relative;
+}
+.headerlist{
+    display: flex;
+gap:4rem;
+}
+.headerListItem{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+.headerListItem.active{
+    border:.1rem solid white;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.headerdesp{
+    margin: 2rem 0;
+}
+.headerBtn{
+    background-color: #0071c2;
+    color:white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+}
+.headerSearch{
+height: 1.3rem;
+background-color: #fff;
+border: 0.3rem solid yellow;
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 1rem 0;
+border-radius: .5rem;
+position: absolute;
+ bottom: -6.5rem;
+ width: 100%;
+}
+.headerIcon{
+    color:rgb(146, 141, 141);
+
+}
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+
+}
+.headerSearchInput{
+    border:none;
+    outline:none ;
+}
+.headerSearchText{
+    color: rgb(146, 141, 141);
+    cursor: pointer;
+}
