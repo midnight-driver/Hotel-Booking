@@ -1,0 +1,40 @@
+.fp{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.fpItem{
+            flex:1;
+
+    /* gap:1rem; */
+    display: flex;
+    flex-direction: column;
+
+}
+.fpImg{
+        flex:1;
+
+    width: 100%;
+}
+.fpName{
+    font-weight: bold;
+}
+.fpCity{
+    font-weight: 300;
+}
+.fpPrice{
+    font-weight: 500;
+}
+.fpRating>button{
+background-color: #5397f5;
+color:white;
+border:none;
+margin-right: 1rem;
+padding: 0.3rem;
+font-weight: bold;
+}
+.fpRating>span{
+    font-size: 1rem;
+}

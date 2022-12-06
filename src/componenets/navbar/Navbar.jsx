@@ -3,7 +3,7 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div className="navContainer">
-        <span className="logo">EnjoyStay</span>
+        <span className="logo">StayCation</span>
         <div className="navItems">
           <button className="navButton">Register</button>
           <button className="navButton">Login</button>
